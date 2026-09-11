@@ -1,0 +1,11 @@
+category,item,quantity,manufacturer,mpn,status,validated_utc,datasheet_url,notes
+flight-computer,Pixhawk 6C flight controller,1,Holybro,PIXHAWK6C,REFERENCE,2026-07-12,https://holybro.com/products/pixhawk-6c,"PX4-compatible reference platform; product has dual accel/gyro sets and MS5611; verify exact vendor SKU/cable set"
+gnss,u-blox high-precision GNSS module,1,u-blox,ZED-F9P-04B,REFERENCE,2026-07-12,https://content.u-blox.com/sites/default/files/ZED-F9P-04B_DataSheet_UBX-21044850.pdf,"Bare module requires a reviewed carrier, antenna, and RF layout; use a finished receiver module for early prototypes"
+high-g-imu,Three-axis high-g accelerometer,1,Analog Devices,ADXL375BCCZ-RL7,REFERENCE,2026-07-12,https://www.analog.com/media/en/technical-documentation/data-sheets/adxl375.pdf,"Production-listed ±200 g device; custom carrier/PCB and calibration required"
+barometer,Precision pressure sensor,1,TE Connectivity,MS561101BA03-50,REFERENCE,2026-07-12,https://www.te.com/en/product-MS561101BA03-50.html,"Protect with a validated static port and foam/light baffling; already present on Pixhawk 6C, so this row is for a custom/redundant channel"
+storage,Industrial microSD card 16 GB,2,Swissbit,TBD,PLACEHOLDER,,,"Select exact capacity/interface/temperature grade from controller compatibility; one flight unit plus spare"
+power,Flight-computer battery,2,TBD,TBD,PLACEHOLDER,,,"Select chemistry/capacity from measured load and mission duration; independent backup recommended"
+telemetry,Telemetry radio,2,TBD,TBD,PLACEHOLDER,,,"Choose frequency only after Czech/EU radio rules and range analysis; air and ground units"
+recovery,Independent certified altimeter,1,TBD,TBD,PLACEHOLDER,,,"Select with the team's safety authority; do not rely on the experimental guidance computer"
+ground,SWD debug interface,1,SEGGER,8.08.91,REFERENCE,2026-07-12,https://shop-us.segger.com/J_Link_EDU_mini_p/8.08.91.htm,"J-Link EDU Mini is restricted to educational/noncommercial use; confirm target adapter/connector"
+mechanical,Vibration-qualified electronics tray,1,TEAM-FAB,TEAM-FAB,PLACEHOLDER,,,"Design from measured modal/vibration environment; avoid soft mounting without analysis"

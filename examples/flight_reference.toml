@@ -1,0 +1,12 @@
+[flight]
+dry_mass_kg = 18.0
+propellant_mass_kg = 4.0
+diameter_m = 0.1524
+drag_coefficient = 0.55
+launch_altitude_m = 300.0
+rail_length_m = 6.0
+time_step_s = 0.01
+max_time_s = 300.0
+parachute_cd_area_m2 = 1.8
+deploy_delay_s = 1.0
+thrust_curve = "reference_thrust.csv"

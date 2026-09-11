@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Student Rocket Workbench"
+message: "If this workbench supports your project, please cite the repository and the exact commit used."
+type: software
+authors:
+  - family-names: "Student Rocket Workbench contributors"
+    given-names: ""
+version: "0.1.0"
+license: MIT
+repository-code: "https://github.com/<owner>/Rocket"
+abstract: >-
+  Reproducible rocket flight, engine, IMU-estimation, guidance-advisory,
+  dispersion, CAD metadata, aerodynamic validation, and avionics BOM tools
+  for student engineering teams.

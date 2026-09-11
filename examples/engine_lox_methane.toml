@@ -1,0 +1,8 @@
+[engine]
+chamber_pressure_bar = 40.0
+mixture_ratio = 3.4
+expansion_ratio = 20.0
+chamber_temperature_k = 3500.0
+gamma = 1.22
+molar_mass_g_mol = 22.0
+ambient_pressure_pa = 101325.0
