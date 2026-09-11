@@ -3,8 +3,10 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 .pytest_cache/
+.pytest_tmp/
 .ruff_cache/
 test-run-temp/
+test-run-temp-*/
 results/
 datasheets/
 bom/orders/
